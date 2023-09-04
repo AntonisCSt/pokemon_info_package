@@ -1,11 +1,27 @@
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+# Table of Contents:
+
+1. [Pokemon info package](#pokemon-info-package)
+1. [What is this package about](#what-is-this-package-about)
+1. [How to use it?](#how-to-use-it)
+1. [How to install it locally](#how-to-install-it-locally)
+1. [Test the code and checkout linting/formatting](#test-the-code-and-checkout-lintingformatting)
+1. [Other useful information about the project](#other-useful-information-about-the-project)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="pokemon-info-package"></a>
 # Pokemon info package
 
 This repo is a part of the #project-of-the-week channel of DataTalksClub
 
+<!-- TOC --><a name="what-is-this-package-about"></a>
 # What is this package about
 
 This package provides information about Pokemon. You add the name of the Pokemon and the package provides the information. It is based on the Pokemon API: `https://pokeapi.co/api/v2/pokemon/`
 
+<!-- TOC --><a name="how-to-use-it"></a>
 # How to use it?
 
 ```python
@@ -21,6 +37,7 @@ print(get_pokemon_defense('Ditto'))
 # 48
 ```
 
+<!-- TOC --><a name="how-to-install-it-locally"></a>
 # How to install it locally
 
 cd into pokemon-project and activate the venv of your choice.
@@ -31,12 +48,14 @@ local install editable command:
 Where `-m` stands for module and `-e` stands for editable.
 ```
 
+<!-- TOC --><a name="test-the-code-and-checkout-lintingformatting"></a>
 # Test the code and checkout linting/formatting
 
 `make test`
 
 `make quality_check`
 
+<!-- TOC --><a name="other-useful-information-about-the-project"></a>
 # Other useful information about the project
 
 Building package using __main__.py approach
