@@ -1,1 +1,2 @@
-from pokemon_info.poke_functions import get_pokemon_attack
+from pokemon_info.poke_api import get_pokemon_info
+from pokemon_info.poke_functions import get_pokemon_attack, get_pokemon_defense
